@@ -3,7 +3,7 @@ Energy-based Flow Classifier
 ============================
 
 The Energy-Based Flow Classifier (EFC) is a new classification method developed in the context of network intrusion detection systems. It was first presented in
-`A New Method for Flow-Based Network Intrusion Detection Using the Inverse Potts Model <https://ieeexplore.ieee.org/document/9415676>`_.
+`A New Method for Flow-Based Network Intrusion Detection Using the Inverse Potts Model <https://ieeexplore.ieee.org/document/9415676>`_ and latter developed in `A novel open set energy-based flow classifier for network intrusion detection <https://www.sciencedirect.com/science/article/pii/S0167404825002585>`_. 
 
 Dependencies
 ------------
@@ -49,7 +49,7 @@ For a full explanation of each of EFC's parameters, read the `API documentation 
 Citations
 ---------
 
-If you use EFC in a scientific publication, please cite the original paper::
+If you use EFC in a scientific publication, please cite the respective papers::
 
     @article {9415676,
     author={Pontes, Camila F. T. and de Souza, Manuela M. C. and Gondim, João J. C. and Bishop, Matt and Marotta, Marcelo Antonio},
@@ -60,9 +60,21 @@ If you use EFC in a scientific publication, please cite the original paper::
     number={2},
     pages={1125-1136},
     doi={10.1109/TNSM.2021.3075503}}
-    
+
+    @article{SOUZA2025104569,
+    author = {Manuela M.C. Souza and Camila T. Pontes and João J.C. Gondim and Luís P.F. Garcia and Luiz DaSilva and Eduardo F.M. Cavalcante and Marcelo A. Marotta},
+    journal = {Computers & Security},
+    title = {A novel open set energy-based flow classifier for network intrusion detection},
+    year = {2025},
+    issn = {0167-4048},
+    pages = {104569},
+    doi = {https://doi.org/10.1016/j.cose.2025.104569},
+    url = {https://www.sciencedirect.com/science/article/pii/S0167404825002585}}
+
 Related Works
 -------------
     [1] "C. F. T. Pontes, M. M. C. de Souza, J. J. C. Gondim, M. Bishop and M. A. Marotta, *A New Method for Flow-Based Network Intrusion Detection Using the Inverse Potts Model*, in *IEEE Transactions on Network and Service Management*, vol. 18, no. 2, pp. 1125-1136, June 2021, doi: 10.1109/TNSM.2021.3075503."
 
     [2] "J. M. De Almeida et al., *Abnormal Behavior Detection Based on Traffic Pattern Categorization in Mobile Cellular Networks*, in *IEEE Transactions on Network and Service Management*, doi: 10.1109/TNSM.2021.3125019."
+
+    [3] "Manuela M.C. Souza and Camila T. Pontes and João J.C. Gondim and Luís P.F. Garcia and Luiz DaSilva and Eduardo F.M. Cavalcante and Marcelo A. Marotta, *A novel open set energy-based flow classifier for network intrusion detection*, in *Computers & Security*, issn 0167-4048, pp. 104569, June 2025, doi: 10.1016/j.cose.2025.104569."
